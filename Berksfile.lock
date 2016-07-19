@@ -1,0 +1,13 @@
+DEPENDENCIES
+  fluentd
+    path: site-cookbooks/fluentd
+  mysql
+    path: site-cookbooks/mysql
+  yum-epel
+
+GRAPH
+  fluentd (0.1.0)
+  mysql (0.1.0)
+  yum (3.11.0)
+  yum-epel (0.7.0)
+    yum (>= 3.6.3)
